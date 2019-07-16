@@ -1,0 +1,201 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:#1a0000;
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: white;
+}
+img{
+	max-width: 100%;
+}
+b{
+	font-weight: 800;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.topo header{
+	text-align: center;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	min-height: 198px;
+	margin: 0 auto;
+	margin-top: 3em;
+}
+.social-limit{
+	width: 270px;
+	margin: 0 auto;
+	padding-top: 10%;
+	padding-left: 9%;
+}
+.topo h1{
+	margin-top: 1em;
+	color: white;
+	font-weight: 600;
+	font-size: 1.6em;
+}
+.topo p{
+	font-size: 1.3em;
+	font-weight: 700;
+	font-style: italic;
+}
+main .formulario{
+	width: 50%;
+	margin: 0 auto;
+	padding: 1em;
+}
+main .formulario input{
+	padding: 0.7em 0;
+	border: 0;
+	font-size: 0.9em;
+}
+main .formulario input[type="text"]{
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	border-radius: 10px;
+	color: #535353;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 1em;
+}
+main .formulario input[type="submit"]{
+	width: 100%;
+	background: #f84e4e;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 10px;
+	font-family: 'Roboto Slab', serif;
+	cursor: pointer;
+}
+main .formulario input[type="submit"]:hover{
+	background: #f86e4e;
+}
+.cor{
+	margin-top: 50px;
+}
+.socialtitle{
+	font-size: 0.8em;
+	margin-top: 25px;
+	font-weight: 400;
+}
+.social{
+	width: 150px;
+	margin: 0 auto;
+	padding-top: 1em;
+	text-align: center;
+}
+.social-box{
+	width: 27px;
+	height: 27px;
+	float: left;
+	margin: 0 5px;
+}
+.fb{
+	background: url('../img/fb-icon.png');
+	background-size: cover;
+}
+.fb:hover{
+	background: url('../img/fb-icon-h.png');
+	background-size: cover;
+}
+.insta{
+	background: url('../img/insta-icon.png');
+	background-size: cover;
+}
+.insta:hover{
+	background: url('../img/insta-icon-h.png');
+	background-size: cover;
+}
+.yt{
+	background: url('../img/yt-icon.png');
+	background-size: cover;
+}
+.yt:hover{
+	background: url('../img/yt-icon-h.png');
+	background-size: cover;
+}
+
+
+
+
+
+
+@media (max-width : 992px) {
+    
+    body{
+         background-image: url('../img/mobile.jpg');
+          background-size: cover;
+          background-color: #1a0000;
+           background-repeat: no-repeat;
+    }
+
+
+
+
+  .content{
+    width: 90%;
+
+    display: block;
+    text-align: center;
+  }
+  .formulario{
+  	margin-top: 40% !important;
+  }
+  main .formulario{
+
+    width: 80%;
+ 
+  }
+  main .formulario input[type="text"]{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #535353;
+    font-family: 'Roboto Slab', serif;
+  }
+  main .formulario input[type="submit"]{
+    width: 100%;
+    background: #f84e4e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+  }
+
+  .form-nome{
+  	margin-top: 10px !important; 
+  	width: 50% !important;
+  }
+  .form-email{
+	width: 70% !important;
+  }
+  .form-celular{
+width: 50% !important;
+  }
+
+}
